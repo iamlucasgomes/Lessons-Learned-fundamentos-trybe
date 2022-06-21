@@ -2,92 +2,137 @@
     font-family: 'Cloister Black';
     src: url(assets/font/CloisterBlack.ttf);
 }
+
 body {
     background-color: rgb(253, 251, 251);
     margin: 0;
 }
-main{
+
+main {
     padding-top: 10%;
     width: 60%;
     margin: auto;
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-aside{
-    position:absolute;
+
+aside {
+    position: absolute;
     top: 20%;
     padding: 2% 0 0 2%;
 }
-svg{
+
+svg {
     width: 20px;
 }
-table{
+
+table {
     color: white;
     position: absolute;
     font-size: 0.8em;
     z-index: 3;
-    top: 300%;
+    left: 2%;
+    top: 64%;
     border: 1px solid #f9ce1a;
     padding: 0 9.5em 0 0;
     text-align: left;
 }
-#card, #minha_foto{
-    position:absolute;
+footer{
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: absolute;
+bottom: 0;
+margin: 0;
+width: 100%;
+height: 30%;
 }
-#card{
+
+#card,
+#minha_foto {
+    position: absolute;
+}
+
+#card {
     z-index: 1;
     position: absolute;
     left: 0;
+    top: 36%;
 
 }
-#minha_foto{
+
+#minha_foto {
     z-index: 0;
     width: 204px;
     height: 154px;
-    top: 136%;
+    left: 2%;
+    top: 42%;
     position: absolute;
 
 }
-#carta h3{
+
+#carta h2 {
     font-size: 1.2em;
-    top: 265%;
+    left: 4%;
+    top: 36.6%;
     z-index: 2;
     color: #ffffff;
-    position:absolute;
-    font-family: 'Cloister Black' ;
+    position: absolute;
+    font-family: 'Cloister Black';
 }
-#atk-def{
+
+#atk-def {
     display: inline;
     font-size: 1.2em;
     top: 363%;
     left: 70%;
     z-index: 999;
     color: #ffffff;
-    position:absolute;
+    position: absolute;
 }
-#ficha{
+
+#ficha {
     font-size: 1em;
     line-height: 0.1em;
 }
-#oclin{
+
+#oclin {
     width: 20px;
 }
+
 #cabecalho {
     position: fixed;
     top: 0;
-    background-color: #2f4f4f;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+
+
     width: 100%;
     height: 20%;
     margin-left: -10;
     text-align: center;
     z-index: 999;
 }
-#listas div{
+
+#titulo {
+    padding: 2% 0 0 0;
+    font-family: 'Cloister Black';
+    color: #ffffff;
+}
+
+#listas div {
     padding: 1% 0 0 0;
     display: inline-block;
     vertical-align: top;
 }
-.lado-direito{
+
+.lado-direito {
     float: right;
 }
-.lado-esquerdo{
+
+.lado-esquerdo {
     float: left;
 }
