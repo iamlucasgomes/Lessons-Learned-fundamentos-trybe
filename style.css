@@ -22,11 +22,9 @@ body {
 main {
   margin: 10% auto auto;
   width: 60%;
-  background: #232526;
-  background: -webkit-linear-gradient(to right, #414345, #232526);
-  background: linear-gradient(to right, #414345, #232526);
-  border: 1em solid #f9ce1a;
-  color: #ffffff;
+  background: linear-gradient(to right, rgb(65, 67, 69), rgb(35, 37, 38));
+  border: 1em solid rgb(249, 206, 26);
+  color: white;
 
 }
 
@@ -38,7 +36,7 @@ aside {
 
 svg {
   width: 20px;
-  fill: #ffffff;
+  fill: white;
 }
 
 table {
@@ -48,20 +46,19 @@ table {
   z-index: 3;
   left: 3%;
   top: 64%;
-  border: 1px solid #f9ce1a;
+  border: 1px solid rgb(249, 206, 26);
   padding: 0 9.5em 0 0;
   text-align: left;
 }
 
 .lado-direito p {
-  font-family: 'Calistha';
-  color: #ffffff;
+  font-family: Calistha, cursive;
+  color: white;
   font-size: 3em;
   padding: 0 1em;
 }
 
-#card,
-#minha_foto {
+#card , #minha_foto {
   position: absolute;
 }
 
@@ -88,16 +85,15 @@ table {
   left: 5%;
   top: 36.6%;
   z-index: 2;
-  color: #ffffff;
+  color: white;
   position: absolute;
-  font-family: 'Cloister Black';
+  font-family: Cloister Black, fantasy;
 }
 
 #ficha {
   font-size: 1em;
   line-height: 0.1em;
-  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif */
-  font-family: 'Bohemian Soul';
+  font-family: Bohemian Soul, fantasy;
 }
 
 #oclin {
@@ -107,11 +103,7 @@ table {
 #cabecalho {
   position: fixed;
   top: 0;
-  background: #232526;
-  background: -webkit-linear-gradient(to right, #414345, #232526);
-  background: linear-gradient(to right, #414345, #232526);
-
-
+  background: linear-gradient(to right, rgb(65, 67, 69), rgb(35, 37, 38));
   width: 100%;
   height: 20%;
   margin-left: -10;
@@ -120,25 +112,24 @@ table {
 }
 
 #titulo {
-  padding: 2% 0 0 0;
-  font-family: "Cloister Black";
-  color: #ffffff;
+  padding: 2% 0 0;
+  font-family: Cloister Black, fantasy;
+  color: white;
 }
 
 #listas div {
-  padding: 1% 0 0 0;
+  padding: 1% 0 0;
   display: inline-block;
   vertical-align: top;
   margin: 0 12%;
-
 }
 
 #listas ol {
-  font-family: 'Bohemian Soul';
+  font-family: Bohemian Soul, fantasy;
 }
 
 #listas h2 {
-  font-family: 'Bohemian Soul';
+  font-family: Bohemian Soul, fantasy;
 }
 
 .lado-direito {
@@ -150,9 +141,7 @@ table {
 }
 
 #rodape {
-  background: #232526;
-  background: -webkit-linear-gradient(to right, #414345, #232526);
-  background: linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, rgb(65, 67, 69), rgb(35, 37, 38));
   position: absolute;
   margin: 1% 0 0;
   height: 20%;
